@@ -9,9 +9,10 @@ public class DockerDemoController {
     @GetMapping("/dockerTest")
     public String dockerTest(){
         return "Docker testing ...................";
+    }
 
-
-
-        
+    @GetMapping("rollback/testing")
+    public String rollabckTesting(){
+        return "Rollback testing ...................";
     }
 }
